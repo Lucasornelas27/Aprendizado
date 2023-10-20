@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class LeituraDeValorECalculo {
+    public static void main(String[]args){
+
+        int n,n1,r;
+        Scanner ler = new Scanner(System.in);
+        System.out.println("digite um numero");
+        n = ler.nextInt();
+        System.out.println("digite um numero");
+        n1 = ler.nextInt();
+        r=n+n1;
+        System.out.println(r);
+    }
+}
