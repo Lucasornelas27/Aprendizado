@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class calculadora {
+    public static  void main(String[]args) {
+        int c;
+        c=0;
+        Scanner tc = new Scanner(System.in);
+        System.out.println("tipo de operação: adição 1, subtração 2, multiplicação 3, divisão 4");
+        int d = tc.nextInt();
+        System.out.println("escreva um  numero:");
+        int a = tc.nextInt();
+        System.out.println("escreva um  numero:");
+        int b = tc.nextInt();
+
+        switch (d){
+                case 1:
+                    c=a+b;
+                    break;
+                case 2:
+                    c=a-b;
+                    break;
+                case 3:
+
+                    c=a*b;
+                    break;
+                case 4:
+
+                    c=a/b;
+                    break;
+
+
+
+        }
+        {
+            System.out.println("resultado  " + c);
+        }
+    }
+
+}
